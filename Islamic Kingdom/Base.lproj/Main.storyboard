@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Islamic_Kingdom" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0I-xV-jCl">
+                                <rect key="frame" x="156" y="314" width="63" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Start"/>
+                                <connections>
+                                    <segue destination="Cbd-Po-BdQ" kind="show" id="mqY-ja-MZH"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Islamic Kingdom" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F2S-NQ-dqb">
+                                <rect key="frame" x="90" y="79" width="195" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="QB2-8C-mCn"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="italicSystem" pointSize="23"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="F2S-NQ-dqb" firstAttribute="centerX" secondItem="p0I-xV-jCl" secondAttribute="centerX" id="446-86-gcO"/>
+                            <constraint firstItem="F2S-NQ-dqb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="D2Q-7v-QjP"/>
+                            <constraint firstItem="p0I-xV-jCl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="156" id="PNh-Uw-Gkw"/>
+                            <constraint firstItem="F2S-NQ-dqb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="90" id="VNe-dR-Eea"/>
+                            <constraint firstItem="F2S-NQ-dqb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="59" id="eAX-xn-qNZ"/>
+                            <constraint firstItem="p0I-xV-jCl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="i7h-ye-rER"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="aGj-hJ-k4D">
+            <objects>
+                <viewController id="Cbd-Po-BdQ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a1o-b6-grL">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peninggalan-Kesultanan-perlak.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="6Tt-Bc-mKe">
+                                <rect key="frame" x="16" y="70" width="343" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="gBd-dY-RBA"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sf-o9-nDZ">
+                                <rect key="frame" x="165" y="615" width="45" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="w3l-45-slc" kind="show" id="oYO-HI-9kA"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRr-7e-hnk">
+                                <rect key="frame" x="16" y="395" width="343" height="145"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="l3x-cW-Ln1"/>
+                                </constraints>
+                                <string key="text">Kerajaan Islam yang pertama kali berdiri di Sumatra dan tanah air adalah Kerajaan Perlak (Peureula). Kerajaan Perlak ini berdiri pada pertengahan abad IX dengan raja pertamanya bernama Alauddin Syah. Perlak pada saat itu merupakan kota dagang penyedia lada paling terkenal. Pada akhir abad XII Kerajaan Perlak akhirnya mengalami kemunduran.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kerajaan Perlak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzU-PH-x4L">
+                                <rect key="frame" x="0.0" y="353" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Tt-Bc-mKe" firstAttribute="leading" secondItem="a1o-b6-grL" secondAttribute="leadingMargin" id="0ZD-VG-Mhs"/>
+                            <constraint firstItem="8sf-o9-nDZ" firstAttribute="top" secondItem="IRr-7e-hnk" secondAttribute="bottom" constant="75" id="3Nm-2F-Plj"/>
+                            <constraint firstItem="auP-cx-YgH" firstAttribute="trailing" secondItem="jzU-PH-x4L" secondAttribute="trailing" id="8M8-5W-xWH"/>
+                            <constraint firstItem="6Tt-Bc-mKe" firstAttribute="leading" secondItem="IRr-7e-hnk" secondAttribute="leading" id="DAY-dW-Yjt"/>
+                            <constraint firstItem="6Tt-Bc-mKe" firstAttribute="trailing" secondItem="a1o-b6-grL" secondAttribute="trailingMargin" id="ROB-jg-qen"/>
+                            <constraint firstItem="auP-cx-YgH" firstAttribute="bottom" secondItem="8sf-o9-nDZ" secondAttribute="bottom" constant="13" id="SA2-cq-4ng"/>
+                            <constraint firstItem="jzU-PH-x4L" firstAttribute="centerY" secondItem="a1o-b6-grL" secondAttribute="centerY" constant="30" id="d0P-rX-4fa"/>
+                            <constraint firstItem="6Tt-Bc-mKe" firstAttribute="top" secondItem="auP-cx-YgH" secondAttribute="top" constant="50" id="hq8-lK-Tl3"/>
+                            <constraint firstItem="6Tt-Bc-mKe" firstAttribute="trailing" secondItem="IRr-7e-hnk" secondAttribute="trailing" id="jjf-HE-HX9"/>
+                            <constraint firstItem="jzU-PH-x4L" firstAttribute="leading" secondItem="auP-cx-YgH" secondAttribute="leading" id="xen-kl-CFb"/>
+                            <constraint firstItem="IRr-7e-hnk" firstAttribute="centerX" secondItem="8sf-o9-nDZ" secondAttribute="centerX" id="yZ0-rS-s60"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="auP-cx-YgH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kfx-ej-uBa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="133.5832083958021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="3Nk-U3-fn8">
+            <objects>
+                <viewController id="w3l-45-slc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Sv-6k-ZZH">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Makam_Ratu_Nahrisyah_di_Aceh_Utara_kerajaan_samudera_pasai.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="yg3-hI-ttR">
+                                <rect key="frame" x="16" y="70" width="343" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="KU4-aW-g94"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xkY-gf-lKZ">
+                                <rect key="frame" x="165" y="615" width="45" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="Nyh-Ch-zyN" kind="show" id="63P-7G-zha"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mU1-Ek-lut">
+                                <rect key="frame" x="16" y="395" width="343" height="145"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="qp5-FO-jnv"/>
+                                </constraints>
+                                <mutableString key="text">Kerajaan Samudra Pasai yang merupakan kerajaan kembar. Kerajaan ini terletak di pesisir timur laut Aceh Kabupaten Lhok Seumawe atau Aceh Utara kini. Kemunculannya sebagai kerajaan Islam diperkirakan awal atau pertengahan abad ke-13 M,  pendiri dan raja pertama  kerajaan ini adalah Malik al-Saleh, sebagai hasil dari proses islamisasi daerah pantai yang pernah disinggahi pedagang-pedagang muslim sejak abad ke-7, ke-8 M, dan seterusnya. Daerah yang diperkirakan masyarakatnya sudah banyak yang memeluk agama Islam adalah Perlak, sepeti yang kita ketahui berita dari Marco Polo yang singgah di daerah itu pada tahun 1292.
+
+       Bukti berdirinya kerajaan Samudra Pasai pada abad ke-13 M, itu didukung dengan adanya nisan yang terbuat dari granit asal Samudra Pasai. Dari nisan itu dapat diketahui bahwa raja pertama itu meninggal pada bulan Ramadhan tahun 696 H, yang diperkirakan bertepatan dengan tahun 1297 M.[3] Nisan kuburan itu didapatkan di Gampong Samudera bekas kerajaan Samudera Pasai tersebut. Keberadaan kerajaan ini dibuktikan dengan sumber sejarah berupa penemuan batu nisan bertuliskan Sultan Malik as-Saleh dengan angka tahun 1297 yang juga merupakan raja pertama. Menurut sumber sejarah, kerajaan ini pernah didatangi seorang utusan dari Sultan Delhi di India bernama Ibnu Batutah.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kerajaan Samudera Pasai" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHg-30-HjT">
+                                <rect key="frame" x="0.0" y="353" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="yg3-hI-ttR" firstAttribute="leading" secondItem="mU1-Ek-lut" secondAttribute="leading" id="Jd9-96-6Eh"/>
+                            <constraint firstItem="992-CR-bBE" firstAttribute="bottom" secondItem="xkY-gf-lKZ" secondAttribute="bottom" constant="13" id="Stp-Sn-QbX"/>
+                            <constraint firstItem="yg3-hI-ttR" firstAttribute="leading" secondItem="6Sv-6k-ZZH" secondAttribute="leadingMargin" id="TO3-vs-wuc"/>
+                            <constraint firstItem="IHg-30-HjT" firstAttribute="centerY" secondItem="6Sv-6k-ZZH" secondAttribute="centerY" constant="30" id="WPW-Lq-VJG"/>
+                            <constraint firstItem="yg3-hI-ttR" firstAttribute="trailing" secondItem="mU1-Ek-lut" secondAttribute="trailing" id="XPw-fI-yO8"/>
+                            <constraint firstItem="IHg-30-HjT" firstAttribute="leading" secondItem="992-CR-bBE" secondAttribute="leading" id="dWV-Cz-WaR"/>
+                            <constraint firstItem="992-CR-bBE" firstAttribute="trailing" secondItem="IHg-30-HjT" secondAttribute="trailing" id="iRU-Ig-DmK"/>
+                            <constraint firstItem="mU1-Ek-lut" firstAttribute="centerX" secondItem="xkY-gf-lKZ" secondAttribute="centerX" id="ng3-ja-Zd3"/>
+                            <constraint firstItem="yg3-hI-ttR" firstAttribute="top" secondItem="992-CR-bBE" secondAttribute="top" constant="50" id="p9P-Eq-ldi"/>
+                            <constraint firstItem="xkY-gf-lKZ" firstAttribute="top" secondItem="mU1-Ek-lut" secondAttribute="bottom" constant="75" id="wpA-7z-4KT"/>
+                            <constraint firstItem="yg3-hI-ttR" firstAttribute="trailing" secondItem="6Sv-6k-ZZH" secondAttribute="trailingMargin" id="yBN-0Z-Uo7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="992-CR-bBE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="weH-Ql-d0S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1622" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ZZg-DI-KuS">
+            <objects>
+                <viewController id="Nyh-Ch-zyN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V46-4h-B1O">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peninggalan-kerajaan-Aceh-Darussalam.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="Hl6-px-Rqg">
+                                <rect key="frame" x="16" y="70" width="343" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="EgZ-J7-NMN"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ra0-lZ-jgn">
+                                <rect key="frame" x="165" y="615" width="45" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="UMB-9S-sU7" kind="show" id="moW-aL-eNN"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="E19-Yr-YSu">
+                                <rect key="frame" x="16" y="395" width="343" height="145"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="njQ-qy-3xj"/>
+                                </constraints>
+                                <mutableString key="text">Kerajaan Aceh berdiri pada tahun 1514. Sultan Ibrahim atau Ali Mugayat Syah adalah raja pertama kerajaan ini. Kerajaan Samudra Pasai berlangsung sampai tahun 1524 M. Pada tahun 1521 M kerajaan ini ditaklukkan oleh Portugis yang mendudukinya selama tiga tahun, kemudian tahun 1524 M dianekasi oleh raja Aceh, Ali Mughayatsyah. Selanjutnya kerajaan Samudera Pasai di bawah pengaruh kesultanan Aceh yang berpusat di Bandar Aceh Darussalam.
+
+        Kerajaan Aceh terletak di daerah yang sekarng dikenal dengan nama Kabupaten Aceh Besar. Di sini pula terletak ibu kotanya. Dan belum diketahui pasti kapan kerajaan ini berdiri. Anas Machmud berpendapat, kerajaan Aceh berdiri pada abad ke-15 M, di atas puing-puing kerajaan Lamuri, oleh Mujaffar Syah (1465-1497 M). Dialah yang membangun kota Aceh Darussalm. Puncak kejayaan Kerajaan Aceh terjadi pada masa pemerintahan Sultan Iskandar Muda. Pada saat itu wilayah kekuasaan Aceh sangat luas. Kerajaan Aceh juga telah menjalin hubungan dengan para pemimpin Islam di kawasan Arab sehingga dikenal dengan sebutan Serambi Mekah. Puncak hubungan tersebut terjadi pada masa kekhalifahan Usmaniyah.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kerajaan Aceh Darussalam" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LXT-pP-ieq">
+                                <rect key="frame" x="0.0" y="353" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Hl6-px-Rqg" firstAttribute="leading" secondItem="E19-Yr-YSu" secondAttribute="leading" id="2Cp-CY-F3q"/>
+                            <constraint firstItem="E19-Yr-YSu" firstAttribute="centerX" secondItem="ra0-lZ-jgn" secondAttribute="centerX" id="4aa-Ym-czc"/>
+                            <constraint firstItem="LXT-pP-ieq" firstAttribute="leading" secondItem="Ecb-TJ-vxe" secondAttribute="leading" id="60G-zS-WaC"/>
+                            <constraint firstItem="Hl6-px-Rqg" firstAttribute="trailing" secondItem="E19-Yr-YSu" secondAttribute="trailing" id="Ply-t1-55x"/>
+                            <constraint firstItem="ra0-lZ-jgn" firstAttribute="top" secondItem="E19-Yr-YSu" secondAttribute="bottom" constant="75" id="Qjn-YP-UDl"/>
+                            <constraint firstItem="LXT-pP-ieq" firstAttribute="centerY" secondItem="V46-4h-B1O" secondAttribute="centerY" constant="30" id="TJe-sA-3jH"/>
+                            <constraint firstItem="Hl6-px-Rqg" firstAttribute="trailing" secondItem="V46-4h-B1O" secondAttribute="trailingMargin" id="Yrq-GB-4e3"/>
+                            <constraint firstItem="Hl6-px-Rqg" firstAttribute="leading" secondItem="V46-4h-B1O" secondAttribute="leadingMargin" id="cVk-IG-B4P"/>
+                            <constraint firstItem="Ecb-TJ-vxe" firstAttribute="trailing" secondItem="LXT-pP-ieq" secondAttribute="trailing" id="fe0-eg-TTd"/>
+                            <constraint firstItem="Hl6-px-Rqg" firstAttribute="top" secondItem="Ecb-TJ-vxe" secondAttribute="top" constant="50" id="flg-lY-Hfb"/>
+                            <constraint firstItem="Ecb-TJ-vxe" firstAttribute="bottom" secondItem="ra0-lZ-jgn" secondAttribute="bottom" constant="13" id="ldS-KE-E4o"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ecb-TJ-vxe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rsZ-gl-Q02" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2300" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hs7-58-a0W">
+            <objects>
+                <viewController id="UMB-9S-sU7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Dw-uy-oAq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peninggalan-kerajaan-Demak.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="VGq-Qd-cZK">
+                                <rect key="frame" x="16" y="70" width="343" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="Kwa-T2-Ic3"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvi-sV-Qdn">
+                                <rect key="frame" x="165" y="615" width="45" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="rrJ-wT-ac7" kind="show" id="oCE-aw-AaD"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRf-7k-9TU">
+                                <rect key="frame" x="16" y="395" width="343" height="145"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="V2R-cT-6Uj"/>
+                                </constraints>
+                                <mutableString key="text"> Perkembangan Islam di Jawa bersamaan waktunya dengan melemahnya posisi Raja Majapahit. Hal itu memberi peluang kepada pengusaha-pengusaha islam di pesisir untuk membangun pusat kekuasaan yang independen. Dibawah pimpinan Sunan Ampel Denta, wali songo bersepakat mengangkat Raaden Patah menjadi raja pertama kerajaan Demak, kerajaan Islam pertama di Jawa, dengan gelar Senopati Jimbun Ngabdurahman Panembahan Palembang Sayidina Panatagama. Sebelumnya Demak yang masih bernama Bintoro merupakan daerah vasal Majapahit yang diberikan Raja Majapahit kepada Radeen Patah.
+       Maka berdiri kerajaan Islam pertama di Pulau Jawa yaitu Kerajaan Demak. Kerajaan ini didirikan oleh Raden Patah pada tahun 1478. Pada saat itu ulama memegang peranan yang penting dalam pemerintahan misalnya dengan diangkatnya Sunan Kalijaga dan Ki Wanalapa sebagai penasihat kerajaan. Kerajaan Demak mengalami masa keemasan pada masa pemerintahan Sultan Trenggono. Pada tahun 1527 ketika armada Portugis datang untuk mendirikan benteng di Sunda Kelapa, Kerajaan Demak berhasil memukul mundur. Pada masa kekuasaan dipegang oleh Jaka Tingkir, pusat pemerintahannya dipindah dari Demak menuju Pajang.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kerajaan Demak" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xho-lc-o4K">
+                                <rect key="frame" x="0.0" y="353" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VGq-Qd-cZK" firstAttribute="trailing" secondItem="6Dw-uy-oAq" secondAttribute="trailingMargin" id="1Yv-Iy-X9Q"/>
+                            <constraint firstItem="eeh-bh-9IM" firstAttribute="bottom" secondItem="zvi-sV-Qdn" secondAttribute="bottom" constant="13" id="7gG-Fn-vhd"/>
+                            <constraint firstItem="Xho-lc-o4K" firstAttribute="centerY" secondItem="6Dw-uy-oAq" secondAttribute="centerY" constant="30" id="ABT-QY-I4g"/>
+                            <constraint firstItem="VGq-Qd-cZK" firstAttribute="trailing" secondItem="xRf-7k-9TU" secondAttribute="trailing" id="D5d-V2-cCl"/>
+                            <constraint firstItem="VGq-Qd-cZK" firstAttribute="leading" secondItem="6Dw-uy-oAq" secondAttribute="leadingMargin" id="FOJ-9P-p5y"/>
+                            <constraint firstItem="xRf-7k-9TU" firstAttribute="centerX" secondItem="zvi-sV-Qdn" secondAttribute="centerX" id="J8O-GV-PY9"/>
+                            <constraint firstItem="eeh-bh-9IM" firstAttribute="trailing" secondItem="Xho-lc-o4K" secondAttribute="trailing" id="L50-SV-dIM"/>
+                            <constraint firstItem="VGq-Qd-cZK" firstAttribute="leading" secondItem="xRf-7k-9TU" secondAttribute="leading" id="b0O-hD-s5a"/>
+                            <constraint firstItem="VGq-Qd-cZK" firstAttribute="top" secondItem="eeh-bh-9IM" secondAttribute="top" constant="50" id="i65-op-0xN"/>
+                            <constraint firstItem="zvi-sV-Qdn" firstAttribute="top" secondItem="xRf-7k-9TU" secondAttribute="bottom" constant="75" id="pXm-me-Rt5"/>
+                            <constraint firstItem="Xho-lc-o4K" firstAttribute="leading" secondItem="eeh-bh-9IM" secondAttribute="leading" id="ugi-o0-hiL"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="eeh-bh-9IM"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="grp-gK-XZW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3038" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Fgi-Oe-ohT">
+            <objects>
+                <viewController id="rrJ-wT-ac7" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZIu-sk-qV1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pendopo-kerajaan-pajang.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dPp-a7-Ueh">
+                                <rect key="frame" x="16" y="70" width="343" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="ymd-fC-4Bx"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QWM-cb-hgf">
+                                <rect key="frame" x="165" y="615" width="45" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="bew-cX-mgl" kind="show" id="84e-va-nZy"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swD-PL-q6R">
+                                <rect key="frame" x="16" y="395" width="343" height="145"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="sfY-En-QaU"/>
+                                </constraints>
+                                <mutableString key="text">Pajang adalah pelanjut atau sebagai pewaris kerajaan Demak. Sultan pertama kerajaan ini adalah Jaka Tingkir yang berasal dari Pengging, di Lereng Gunung Merapi. Oleh raja Demak ketiga Sultan Trenggono, Jaka Tingkir diangkat menjadi penguasa di Pajang, setelah dikawinkan dengan anak perempuannya. Setelah Raja Demak meniggal dunia Jaka Tingkir memerintahkan agar semua benda pusaka Demak dipindahkan ke Pajang. Setelah menjadi raja yang paling berpengaruh di Pulau Jawa ia bergelar Sultan Adiwijaya. Sultan Adiwijaya menghadiakan kota gede Yogyakarta dan mengangkat Ki Ageng Pemanahan menjadi adipati di situ. Saat Ki Ageng Pemanahan meninggal, jabatan adipati digantikan oleh anaknya, Sutawijaya. Sementara itu adipati Demak diserahkan kepada Pangeran Aria Pangiri. Sutawijaya yang menjadi adipati di Mataram (Yogyakarta) ingin menjadi raja dan berkuasa atas seluruh pulau Jawa. Sebagai raja, Jaka Tingkir mendapat gelar Sultan Adiwijaya. Setelah Sultan Adiwijaya wafat, pemerintahan dilanjutkan oleh  Arya Pangiri. Selanjutnya, dipimpin oleh Pangeran Benowo.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kerajaan Pajang" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yw5-ub-vHF">
+                                <rect key="frame" x="0.0" y="353" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Yw5-ub-vHF" firstAttribute="centerY" secondItem="ZIu-sk-qV1" secondAttribute="centerY" constant="30" id="36X-rT-pyJ"/>
+                            <constraint firstItem="QWM-cb-hgf" firstAttribute="top" secondItem="swD-PL-q6R" secondAttribute="bottom" constant="75" id="4w8-LJ-wKv"/>
+                            <constraint firstItem="mc1-gy-zDh" firstAttribute="bottom" secondItem="QWM-cb-hgf" secondAttribute="bottom" constant="13" id="AG1-D8-7d7"/>
+                            <constraint firstItem="dPp-a7-Ueh" firstAttribute="leading" secondItem="ZIu-sk-qV1" secondAttribute="leadingMargin" id="DBh-tk-OXc"/>
+                            <constraint firstItem="dPp-a7-Ueh" firstAttribute="top" secondItem="mc1-gy-zDh" secondAttribute="top" constant="50" id="JOF-uq-2S5"/>
+                            <constraint firstItem="dPp-a7-Ueh" firstAttribute="trailing" secondItem="ZIu-sk-qV1" secondAttribute="trailingMargin" id="S1g-sn-oJF"/>
+                            <constraint firstItem="dPp-a7-Ueh" firstAttribute="trailing" secondItem="swD-PL-q6R" secondAttribute="trailing" id="UKZ-Zf-Rd2"/>
+                            <constraint firstItem="Yw5-ub-vHF" firstAttribute="leading" secondItem="mc1-gy-zDh" secondAttribute="leading" id="WFi-k5-NUC"/>
+                            <constraint firstItem="dPp-a7-Ueh" firstAttribute="leading" secondItem="swD-PL-q6R" secondAttribute="leading" id="XJF-Ee-2Mv"/>
+                            <constraint firstItem="swD-PL-q6R" firstAttribute="centerX" secondItem="QWM-cb-hgf" secondAttribute="centerX" id="aUo-gW-pdv"/>
+                            <constraint firstItem="mc1-gy-zDh" firstAttribute="trailing" secondItem="Yw5-ub-vHF" secondAttribute="trailing" id="gnN-5X-alS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="mc1-gy-zDh"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hTB-6M-LyL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3766" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="yeE-qy-QcK">
+            <objects>
+                <viewController id="bew-cX-mgl" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iHg-2O-QWu">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peninggalan-kerajaan-mataram.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="deD-9k-khq">
+                                <rect key="frame" x="16" y="70" width="343" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="Dhn-d6-IBY"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N9h-VB-VTx">
+                                <rect key="frame" x="165" y="615" width="45" height="39"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="zJ6-aO-auG" kind="show" id="lO7-kb-MrX"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx3-i5-sBX">
+                                <rect key="frame" x="16" y="395" width="343" height="145"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="145" id="l7H-hg-eSI"/>
+                                </constraints>
+                                <mutableString key="text">Kerajaan Mataram didirikan oleh Sutawijaya yang memiliki gelar Panembahan Senopati Ing Alaga Sayidin Panatagama. Setelah naik tahta kerajaan pada tahun 1586, Sutawijaya bergelar Panembahan Senapati Ing Alaga Sayidin Panatagama. Kerajaan Mataram mencapai masa kejayaan pada masa kekuasaan Sultan Agung Hanyakrakusuma yang bergelar Sultan Agung Senopati Ing Alaga Ngabdurrahman Khalifatullah. Saat itu kekuasaan Mataram  sangat luas dan seluruhnya berhasil disatukan. Kerajaan yang dipimpin oleh Sutajaya ini adalah kerajaan kedua yang kini bercorak Islam, sementara yang dulu bercorak Hindu. Namun letak Mataram Islam berada di bekas wilayah Kerajaan Mataram Hindu. Sementara itu, Pajang yang dulu menjadi pusat kerajaan, msuk menjadi wilayah kekuasaan Mataram Islam, dan Pangeran Benowo sebagai adipati Pajan</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kerajaan Mataram Islam" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z0e-ek-Hcf">
+                                <rect key="frame" x="0.0" y="353" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="z0e-ek-Hcf" firstAttribute="leading" secondItem="hME-e3-fkH" secondAttribute="leading" id="4gL-d9-YvW"/>
+                            <constraint firstItem="deD-9k-khq" firstAttribute="top" secondItem="hME-e3-fkH" secondAttribute="top" constant="50" id="BN5-vf-CNt"/>
+                            <constraint firstItem="Qx3-i5-sBX" firstAttribute="centerX" secondItem="N9h-VB-VTx" secondAttribute="centerX" id="BzT-WI-9T7"/>
+                            <constraint firstItem="z0e-ek-Hcf" firstAttribute="centerY" secondItem="iHg-2O-QWu" secondAttribute="centerY" constant="30" id="NaY-cM-KvY"/>
+                            <constraint firstItem="hME-e3-fkH" firstAttribute="trailing" secondItem="z0e-ek-Hcf" secondAttribute="trailing" id="Qb0-eS-LqP"/>
+                            <constraint firstItem="deD-9k-khq" firstAttribute="trailing" secondItem="iHg-2O-QWu" secondAttribute="trailingMargin" id="RYp-YV-59o"/>
+                            <constraint firstItem="N9h-VB-VTx" firstAttribute="top" secondItem="Qx3-i5-sBX" secondAttribute="bottom" constant="75" id="rJJ-0m-Lrb"/>
+                            <constraint firstItem="deD-9k-khq" firstAttribute="leading" secondItem="iHg-2O-QWu" secondAttribute="leadingMargin" id="tdI-ts-iKR"/>
+                            <constraint firstItem="deD-9k-khq" firstAttribute="leading" secondItem="Qx3-i5-sBX" secondAttribute="leading" id="uCx-ew-mDf"/>
+                            <constraint firstItem="deD-9k-khq" firstAttribute="trailing" secondItem="Qx3-i5-sBX" secondAttribute="trailing" id="wb1-N5-i3U"/>
+                            <constraint firstItem="hME-e3-fkH" firstAttribute="bottom" secondItem="N9h-VB-VTx" secondAttribute="bottom" constant="13" id="xVK-ny-C8f"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hME-e3-fkH"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="41c-Os-T87" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4428" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sqL-3V-erS">
+            <objects>
+                <viewController id="zJ6-aO-auG" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="00J-Xm-aRJ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqr-Em-bxF">
+                                <rect key="frame" x="0.0" y="258" width="375" height="95"/>
+                                <string key="text">Thanks To Use My
+Download Islamic Kingdom 2 To Continue</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="vqr-Em-bxF" firstAttribute="top" secondItem="pc1-8j-NFC" secondAttribute="top" constant="238" id="1E1-4O-EER"/>
+                            <constraint firstItem="pc1-8j-NFC" firstAttribute="bottom" secondItem="vqr-Em-bxF" secondAttribute="bottom" constant="314" id="QV2-ia-ft4"/>
+                            <constraint firstItem="vqr-Em-bxF" firstAttribute="leading" secondItem="00J-Xm-aRJ" secondAttribute="leading" id="bTs-ox-Ndh"/>
+                            <constraint firstAttribute="trailing" secondItem="vqr-Em-bxF" secondAttribute="trailing" id="z6z-4w-ZU8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="pc1-8j-NFC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PJE-9r-Uod" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5080.8000000000002" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Makam_Ratu_Nahrisyah_di_Aceh_Utara_kerajaan_samudera_pasai.jpg" width="460" height="274"/>
+        <image name="pendopo-kerajaan-pajang.jpg" width="300" height="200"/>
+        <image name="peninggalan-Kesultanan-perlak.jpg" width="397" height="294"/>
+        <image name="peninggalan-kerajaan-Aceh-Darussalam.JPG" width="394" height="284"/>
+        <image name="peninggalan-kerajaan-Demak.jpg" width="600" height="341"/>
+        <image name="peninggalan-kerajaan-mataram.jpg" width="412" height="250"/>
+    </resources>
+</document>

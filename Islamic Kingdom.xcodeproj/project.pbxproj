@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		525279892191291D0002BD70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 525279882191291D0002BD70 /* AppDelegate.swift */; };
+		5252798B2191291D0002BD70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5252798A2191291D0002BD70 /* ViewController.swift */; };
+		5252798E2191291D0002BD70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5252798C2191291D0002BD70 /* Main.storyboard */; };
+		525279902191291E0002BD70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5252798F2191291E0002BD70 /* Assets.xcassets */; };
+		525279932191291E0002BD70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525279912191291E0002BD70 /* LaunchScreen.storyboard */; };
+		5252799B21912C4E0002BD70 /* peninggalan-Kesultanan-perlak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5252799A21912C4E0002BD70 /* peninggalan-Kesultanan-perlak.jpg */; };
+		5252799D21912CDB0002BD70 /* Makam_Ratu_Nahrisyah_di_Aceh_Utara_kerajaan_samudera_pasai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5252799C21912CDB0002BD70 /* Makam_Ratu_Nahrisyah_di_Aceh_Utara_kerajaan_samudera_pasai.jpg */; };
+		525279A121912D680002BD70 /* pendopo-kerajaan-pajang.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5252799E21912D680002BD70 /* pendopo-kerajaan-pajang.jpg */; };
+		525279A221912D680002BD70 /* peninggalan-kerajaan-Aceh-Darussalam.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 5252799F21912D680002BD70 /* peninggalan-kerajaan-Aceh-Darussalam.JPG */; };
+		525279A321912D680002BD70 /* peninggalan-kerajaan-Demak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 525279A021912D680002BD70 /* peninggalan-kerajaan-Demak.jpg */; };
+		525279A521912E650002BD70 /* peninggalan-kerajaan-mataram.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 525279A421912E650002BD70 /* peninggalan-kerajaan-mataram.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		525279852191291D0002BD70 /* Islamic Kingdom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Islamic Kingdom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		525279882191291D0002BD70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5252798A2191291D0002BD70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5252798D2191291D0002BD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5252798F2191291E0002BD70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		525279922191291E0002BD70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		525279942191291E0002BD70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5252799A21912C4E0002BD70 /* peninggalan-Kesultanan-perlak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "peninggalan-Kesultanan-perlak.jpg"; sourceTree = "<group>"; };
+		5252799C21912CDB0002BD70 /* Makam_Ratu_Nahrisyah_di_Aceh_Utara_kerajaan_samudera_pasai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Makam_Ratu_Nahrisyah_di_Aceh_Utara_kerajaan_samudera_pasai.jpg; sourceTree = "<group>"; };
+		5252799E21912D680002BD70 /* pendopo-kerajaan-pajang.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pendopo-kerajaan-pajang.jpg"; sourceTree = "<group>"; };
+		5252799F21912D680002BD70 /* peninggalan-kerajaan-Aceh-Darussalam.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "peninggalan-kerajaan-Aceh-Darussalam.JPG"; sourceTree = "<group>"; };
+		525279A021912D680002BD70 /* peninggalan-kerajaan-Demak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "peninggalan-kerajaan-Demak.jpg"; sourceTree = "<group>"; };
+		525279A421912E650002BD70 /* peninggalan-kerajaan-mataram.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "peninggalan-kerajaan-mataram.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		525279822191291D0002BD70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5252797C2191291D0002BD70 = {
+			isa = PBXGroup;
+			children = (
+				525279872191291D0002BD70 /* Islamic Kingdom */,
+				525279862191291D0002BD70 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		525279862191291D0002BD70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				525279852191291D0002BD70 /* Islamic Kingdom.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		525279872191291D0002BD70 /* Islamic Kingdom */ = {
+			isa = PBXGroup;
+			children = (
+				525279882191291D0002BD70 /* AppDelegate.swift */,
+				5252798A2191291D0002BD70 /* ViewController.swift */,
+				5252798C2191291D0002BD70 /* Main.storyboard */,
+				5252798F2191291E0002BD70 /* Assets.xcassets */,
+				525279A421912E650002BD70 /* peninggalan-kerajaan-mataram.jpg */,
+				5252799E21912D680002BD70 /* pendopo-kerajaan-pajang.jpg */,
+				5252799F21912D680002BD70 /* peninggalan-kerajaan-Aceh-Darussalam.JPG */,
+				525279A021912D680002BD70 /* peninggalan-kerajaan-Demak.jpg */,
+				5252799C21912CDB0002BD70 /* Makam_Ratu_Nahrisyah_di_Aceh_Utara_kerajaan_samudera_pasai.jpg */,
+				5252799A21912C4E0002BD70 /* peninggalan-Kesultanan-perlak.jpg */,
+				525279912191291E0002BD70 /* LaunchScreen.storyboard */,
+				525279942191291E0002BD70 /* Info.plist */,
+			);
+			path = "Islamic Kingdom";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		525279842191291D0002BD70 /* Islamic Kingdom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 525279972191291E0002BD70 /* Build configuration list for PBXNativeTarget "Islamic Kingdom" */;
+			buildPhases = (
+				525279812191291D0002BD70 /* Sources */,
+				525279822191291D0002BD70 /* Frameworks */,
+				525279832191291D0002BD70 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Islamic Kingdom";
+			productName = "Islamic Kingdom";
+			productReference = 525279852191291D0002BD70 /* Islamic Kingdom.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5252797D2191291D0002BD70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = MaulzDev;
+				TargetAttributes = {
+					525279842191291D0002BD70 = {
+						CreatedOnToolsVersion = 9.4;
+					};
+				};
+			};
+			buildConfigurationList = 525279802191291D0002BD70 /* Build configuration list for PBXProject "Islamic Kingdom" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5252797C2191291D0002BD70;
+			productRefGroup = 525279862191291D0002BD70 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				525279842191291D0002BD70 /* Islamic Kingdom */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		525279832191291D0002BD70 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				525279A221912D680002BD70 /* peninggalan-kerajaan-Aceh-Darussalam.JPG in Resources */,
+				5252799D21912CDB0002BD70 /* Makam_Ratu_Nahrisyah_di_Aceh_Utara_kerajaan_samudera_pasai.jpg in Resources */,
+				525279A321912D680002BD70 /* peninggalan-kerajaan-Demak.jpg in Resources */,
+				525279932191291E0002BD70 /* LaunchScreen.storyboard in Resources */,
+				5252799B21912C4E0002BD70 /* peninggalan-Kesultanan-perlak.jpg in Resources */,
+				525279A121912D680002BD70 /* pendopo-kerajaan-pajang.jpg in Resources */,
+				525279902191291E0002BD70 /* Assets.xcassets in Resources */,
+				5252798E2191291D0002BD70 /* Main.storyboard in Resources */,
+				525279A521912E650002BD70 /* peninggalan-kerajaan-mataram.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		525279812191291D0002BD70 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5252798B2191291D0002BD70 /* ViewController.swift in Sources */,
+				525279892191291D0002BD70 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5252798C2191291D0002BD70 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5252798D2191291D0002BD70 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		525279912191291E0002BD70 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				525279922191291E0002BD70 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		525279952191291E0002BD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		525279962191291E0002BD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		525279982191291E0002BD70 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Islamic Kingdom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Maul.Islamic-Kingdom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		525279992191291E0002BD70 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Islamic Kingdom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Maul.Islamic-Kingdom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		525279802191291D0002BD70 /* Build configuration list for PBXProject "Islamic Kingdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525279952191291E0002BD70 /* Debug */,
+				525279962191291E0002BD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		525279972191291E0002BD70 /* Build configuration list for PBXNativeTarget "Islamic Kingdom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				525279982191291E0002BD70 /* Debug */,
+				525279992191291E0002BD70 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5252797D2191291D0002BD70 /* Project object */;
+}
